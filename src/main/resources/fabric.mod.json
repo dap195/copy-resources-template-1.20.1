@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "copy_resources_mod",
+	"version": "${version}",
+	"name": "Copy Resources",
+	"description": "This is copy resources mod! made by dap195dapa",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/copy-resources/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dap195dapa.copyresources.CopyResources"
+		],
+		"client": [
+			"net.dap195dapa.copyresources.CopyResourcesClient"
+		],
+		"fabric-datagen": [
+			"net.dap195dapa.copyresources.CopyResourcesDataGenerator"
+		]
+	},
+	"mixins": [
+		"copy-resources.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
