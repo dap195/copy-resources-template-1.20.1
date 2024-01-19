@@ -1,5 +1,8 @@
 {
   "item.copy-resources.copy_item": "Copy Item",
+  "item.copy-resources.copy_seeds": "Copy Seeds",
+
+  "block.copy-resources.copy_block": "Copy Block",
 
   "itemgroup.copy_item": "Copy Resources"
 }

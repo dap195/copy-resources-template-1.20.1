@@ -1,5 +1,8 @@
 {
   "item.copy-resources.copy_item": "복사 아이템",
+  "item.copy-resources.copy_seeds": "복사 씨앗",
+
+  "block.copy-resources.copy_block": "복사 블록",
 
   "itemgroup.copy_item": "자원 복사"
 }

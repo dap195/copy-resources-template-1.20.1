@@ -1,6 +1,7 @@
 package net.dap195dapa.copyresources.items;
 
 import net.dap195dapa.copyresources.CopyResources;
+import net.dap195dapa.copyresources.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,7 +16,10 @@ public class ModItemGroups {
             new Identifier(CopyResources.MOD_ID, "copy_item"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.copy_item"))
                     .icon(() -> new ItemStack(ModItems.COPY_ITEM)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.COPY_SEEDS);
                         entries.add(ModItems.COPY_ITEM);
+
+                        entries.add(ModBlocks.COPY_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

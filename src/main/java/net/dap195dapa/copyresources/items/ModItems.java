@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    public static final Item COPY_SEEDS = registerItem("copy_seeds", new Item(new FabricItemSettings()));
     public static final Item COPY_ITEM = registerItem("copy_item", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){

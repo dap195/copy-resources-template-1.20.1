@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "copy-resources:block/copy_block"
+    }
+  }
+}

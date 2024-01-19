@@ -1,5 +1,6 @@
 package net.dap195dapa.copyresources;
 
+import net.dap195dapa.copyresources.blocks.ModBlocks;
 import net.dap195dapa.copyresources.items.ModItemGroups;
 import net.dap195dapa.copyresources.items.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,6 @@ public class CopyResources implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItem();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlock();
 	}
 }
