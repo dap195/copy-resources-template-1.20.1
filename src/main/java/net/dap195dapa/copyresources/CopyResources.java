@@ -1,5 +1,7 @@
 package net.dap195dapa.copyresources;
 
+import net.dap195dapa.copyresources.items.ModItemGroups;
+import net.dap195dapa.copyresources.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,10 +12,12 @@ public class CopyResources implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 
-	public static final String MOD_ID = "copy_resources_mod";
+	public static final String MOD_ID = "copy-resources";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItem();
+		ModItemGroups.registerItemGroups();
 	}
 }
