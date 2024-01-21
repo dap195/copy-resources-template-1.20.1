@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.copy_item"))
                     .icon(() -> new ItemStack(ModItems.COPY_ITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.COPY_SEEDS);
+                        entries.add(ModItems.COPY_FOOD);
                         entries.add(ModItems.COPY_ITEM);
 
                         entries.add(ModBlocks.COPY_BLOCK);

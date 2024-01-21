@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "copy-resources:block/copy_block"
-  }
-}

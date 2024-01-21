@@ -1,6 +1,7 @@
 {
   "item.copy-resources.copy_item": "복사 아이템",
   "item.copy-resources.copy_seeds": "복사 씨앗",
+  "item.copy-resources.copy_food": "복사 음식",
 
   "block.copy-resources.copy_block": "복사 블록",
 
